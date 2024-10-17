@@ -120,7 +120,7 @@ This setup should help manage YouTube content access efficiently without encount
 
 ```sh
 git clone https://github.com/abirxdhackz/SmartVCPlayers.git
-cd SmartVCPlayer
+cd SmartVCPlayers
 pip3 install -r requirements.txt
 # install node js
 sudo bash install_node.sh
