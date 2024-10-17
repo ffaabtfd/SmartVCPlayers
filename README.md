@@ -119,7 +119,7 @@ This setup should help manage YouTube content access efficiently without encount
 ## Deploy to VPS
 
 ```sh
-git clone https://github.com/bisnuray/SmartVCPlayer
+git clone https://github.com/abirxdhackz/SmartVCPlayers.git
 cd SmartVCPlayer
 pip3 install -r requirements.txt
 # install node js
