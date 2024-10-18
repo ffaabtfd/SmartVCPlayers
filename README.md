@@ -94,7 +94,7 @@ To avoid errors related to YouTube sign-in requirements, using a cookie file is 
    - Log into YouTube in your new browser profile and export cookies in Netscape format via the cookie extension.
 
 4. **Save the Cookies File:**
-   - Update your `cookies.txt` in the `SmartVCPlayer/ytcookies` directory of your project.
+   - Update your `cookies.txt` in the `SmartVCPlayers/ytcookies` directory of your project.
 
 ### Managing Cookies:
 
@@ -114,7 +114,7 @@ This setup should help manage YouTube content access efficiently without encount
 
 ## Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy/?template=https://github.com/bisnuray/SmartVCPlayer)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy/?template=https://github.com/abirxdhackz/SmartVCPlayers)
 
 ## Deploy to VPS
 
