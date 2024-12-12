@@ -1,7 +1,6 @@
 # Copyright (C) @subinps
 # Update By (C) @theSmartBisnu
-# ReUpdate By (C) @abirxdhackz
-# Channel : https://t.me/abir_xd_bio
+# Channel : https://t.me/itsSmartDev
 
 from utils import LOGGER
 from youtube_search import YoutubeSearch
@@ -63,8 +62,8 @@ async def add_to_playlist(client, message):
         if message.chat.id != Config.CHAT and message.chat.type != enums.ChatType.PRIVATE:
             buttons = [
                 [
-                    InlineKeyboardButton('🤖 Make Own Bot', url='https://github.com/abirxdhackz/SmartVCPlayers'),
-                    InlineKeyboardButton('✅ Join Here', url='https://t.me/abir_xd_bio'),
+                    InlineKeyboardButton('🤖 Make Own Bot', url='https://github.com/bisnuray/SmartVCPlayer'),
+                    InlineKeyboardButton('✅ Join Here', url='https://t.me/itsSmartDev'),
                 ]
             ]
             reply_markup = InlineKeyboardMarkup(buttons)
@@ -487,7 +486,7 @@ async def notforu(_, m: Message):
     k = await _.send_message(
         chat_id = m.chat.id,
         text = "<b>Sorry! You are not authorized ❌</b>",
-        reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton('Join Now ✅', url='https://t.me/abir_xd_bio')]])
+        reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton('Join Now ✅', url='https://t.me/itsSmartDev')]])
     )
     await delete_messages([m, k])
 
@@ -507,8 +506,8 @@ async def not_chat(_, m: Message):
     else:
         buttons = [
             [
-                InlineKeyboardButton('⚡️Make Own Bot', url='https://github.com/abirxdhackz/SmartVCPlayers'),
-                InlineKeyboardButton('✅ Join Here', url='https://t.me/abir_xd_bio'),
+                InlineKeyboardButton('⚡️Make Own Bot', url='https://github.com/bisnuray/SmartVCPlayer'),
+                InlineKeyboardButton('✅ Join Here', url='https://t.me/itsSmartDev'),
             ]
         ]
-        await m.reply("<b>You can't use this bot in this group, for that you have to make your own bot from the [SOURCE CODE](https://github.com/abirxdhackz/SmartVCPlayers) below.</b>", quote=False, disable_web_page_preview = True, reply_markup = InlineKeyboardMarkup(buttons))
+        await m.reply("<b>You can't use this bot in this group, for that you have to make your own bot from the [SOURCE CODE](https://github.com/bisnuray/SmartVCPlayer) below.</b>", quote=False, disable_web_page_preview = True, reply_markup = InlineKeyboardMarkup(buttons))
